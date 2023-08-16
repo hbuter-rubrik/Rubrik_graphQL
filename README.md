@@ -1,7 +1,8 @@
 # Python scripts to use with GraphQL and Rubrik Security Cloud (RSC)
 In this repository I'll be adding python scripts that I've created for our customers. 
 
-connect_RSC.PY - Script to generate a token needed for the scripts to authenticate using a Service Account with Rubrik Security Cloud. I prefer to import this script as a module into my scripts
+connect_RSC.PY - Script to generate a token needed for the scripts to authenticate using a Service Account with Rubrik Security Cloud. I prefer to import this script as a module into my scripts.
+For this script to run successfully, please ensure you have a service account setup in RSC (Settings--> Users & Access--> Service Accounts)
 
 You'll need to define the following in the script prior to running:
    * rsc_url - RSC_URL Customer name so it matches your company RSC URL
