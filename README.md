@@ -6,3 +6,5 @@ connect_RSC.PY - Script to generate a token needed for the scripts to authentica
 # Reporting script
 cluster size last 12 months.py - Script to provide a capacity report for the last 52 weeks, it imports connect_RSC.py to authenticate. You will need to add cluster ID of the particular cluster which can be gained via RSC --> Data Protection --> Cluster view --> Cluster Details --> UUID
 
+![Screenshot of csv file output](https://github.com/hbuter-rubrik/images/blob/main/12months.png)
+
