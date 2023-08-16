@@ -3,6 +3,8 @@ Python Script that logs into your Rubrik Security Cloud and create a capacity re
 Define: 
     rubrik_cluster_id - CLuster ID where your like to get the report from
     csv_file_location - Path where you want to store the CSV File
+
+Cluster UUID Location RSC --> Data Protection --> Cluster view --> Cluster Details --> UUID
 """
 
 import requests
