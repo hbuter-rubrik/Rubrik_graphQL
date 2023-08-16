@@ -10,7 +10,8 @@ You'll need to define the following in the script prior to running:
    * client_secret - Service Account Client Secret
 
 # Reporting script
-cluster size last 12 months.py - Script to provide a capacity report for the last 52 weeks, it imports connect_RSC.py to authenticate. 
+cluster size last 12 months.py - Script to provide a capacity report for the last 52 weeks, it imports connect_RSC.py to authenticate, please make sure the connect_RSC.py is in the same folder as the reporting script. 
+
 You will need to define the following prior to running the script: 
   * rubrik_cluster_id  - cluster ID of the particular cluster which can be gained via RSC --> Data Protection --> Cluster view --> Cluster Details --> UUID
   * csv_file_location - Path where you want to store the CSV File
