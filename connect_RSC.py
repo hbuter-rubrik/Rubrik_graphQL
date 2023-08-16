@@ -2,6 +2,8 @@
 Python Script to get a token needed to login into Rubrik Security Cloud
 Define: 
     rsc_url - RSC_URL Customer name so it matches your company RSC URL
+    client_id - Service Account client ID
+    client_secret - Service Account Client Secret
 """
 
 import requests
